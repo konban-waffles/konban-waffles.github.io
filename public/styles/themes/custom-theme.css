@@ -128,6 +128,8 @@ ul.link-list li a:visited {
   text-decoration: none;
 }
 ul.link-list li a img {
+  background-color: black;
+  mix-blend-mode: add;
   z-index: 1;
   aspect-ratio: 1 / 1;
   width: 75px;
