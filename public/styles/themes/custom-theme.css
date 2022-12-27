@@ -20,21 +20,36 @@ TIP: Get started creating your own theme here
 
 .gallery .image-card {
   max-width: 100%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #66ccff;
   border-radius: 10px;
   box-shadow: 6px 6px 1px -3px #66ccff;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 
+.gallery .image-card.small {
+  display: inline-flex;
+  width: 48%;
+}
 .gallery .image-card img {
-  max-width: calc(100% - 10px);
-}
-div.gallery-2 img {
-  max-width: 49%;
-}
-div.gallery-3 img {
-  max-width: 32%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
+.image-credit {
+  background-color: #77ddff;
+  margin: 0;
+}
+
+.image-credit a {
+  color: white;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  padding: 10px; 
+  text-decoration: underline;
+}
 /* Add your style rules! */
