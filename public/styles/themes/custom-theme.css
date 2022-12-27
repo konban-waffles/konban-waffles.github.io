@@ -110,7 +110,12 @@ ul.link-list li {
   font-size: clamp(1.2rem, 0.3250rem + 1.6667vw, 1.5rem);
   line-height: 1.2;
 }
+ul.link-list li a:active img, ul.link-list li a:focus img, ul.link-list li a:hover img {
+  display: block;
+}
+
 ul.link-list li a {
+  min-height: 75px;
   min-width: 100%;
   display: flex;
   align-content: center;
@@ -128,14 +133,13 @@ ul.link-list li a:visited {
   text-decoration: none;
 }
 ul.link-list li a img {
-  background-color: black;
-  mix-blend-mode: add;
   z-index: 1;
   aspect-ratio: 1 / 1;
   width: 75px;
   object-fit: contain;
   overflow: hidden;
 }
+
 ul.link-list li a span {
   z-index: 2;
   padding-left: 1rem;
