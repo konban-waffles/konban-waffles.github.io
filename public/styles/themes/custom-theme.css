@@ -19,22 +19,25 @@ TIP: Get started creating your own theme here
 }
 
 .gallery .image-card {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
   border: 1px solid #66ccff;
   border-radius: 10px;
-  box-shadow: 6px 6px 1px -3px #66ccff;
-  margin-bottom: 10px;
   overflow: hidden;
 }
 
-.gallery .image-card.small {
+.image-card {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.image-card.small {
   display: inline-flex;
   width: 48%;
   box-shadow: none;
 }
-.gallery .image-card img {
+
+.image-card img {
   max-width: 100%;
   padding: 0;
   margin: 0;
