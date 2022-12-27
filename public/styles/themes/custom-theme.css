@@ -32,6 +32,7 @@ TIP: Get started creating your own theme here
 .gallery .image-card.small {
   display: inline-flex;
   width: 48%;
+  box-shadow: none;
 }
 .gallery .image-card img {
   max-width: 100%;
@@ -40,16 +41,19 @@ TIP: Get started creating your own theme here
 }
 
 .image-credit {
-  background-color: #77ddff;
+  background-color: #55aadd;
   margin: 0;
 }
 
-.image-credit a {
-  color: white;
-  font-weight: bold;
-  display: block;
-  width: 100%;
-  padding: 10px; 
-  text-decoration: underline;
+.image-credit a:not(.btn--remix):link, .image-credit a:not(.btn--remix):visited {
+    text-decoration: none;
+    border-bottom: 0px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 10px; 
+    text-decoration: underline;
+    text-underline-position: under;
+    transition: background 0.2s linear;
 }
-/* Add your style rules! */
