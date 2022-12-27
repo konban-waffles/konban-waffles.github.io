@@ -111,7 +111,8 @@ ul.link-list li {
   line-height: 1.2;
 }
 ul.link-list li a:active img, ul.link-list li a:focus img, ul.link-list li a:hover img {
-  display: block;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }
 
 ul.link-list li a {
@@ -138,6 +139,8 @@ ul.link-list li a img {
   width: 75px;
   object-fit: contain;
   overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 ul.link-list li a span {
