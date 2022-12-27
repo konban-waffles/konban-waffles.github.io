@@ -18,7 +18,9 @@ TIP: Get started creating your own theme here
   --color-text-main: black;
   --color-primary: black;
 }
-
+.news {
+  margin: 0.5em 0 2.5rem;
+}
 
 .news-card {
   border: 1px solid #66ccff;
@@ -116,7 +118,8 @@ ul.link-list li a:active img, ul.link-list li a:focus img, ul.link-list li a:hov
 }
 
 .link-list-image {
-    padding: 10px; 
+  height: 75px;
+  margin: 10px; 
 }
 
 ul.link-list li a {
@@ -133,7 +136,7 @@ ul.link-list li a:visited {
   text-align: center;
   border: 1px solid #66ccff;
   border-radius: 10px;
-  padding: 10px;
+  padding: 0 10px;
   position: relative;
   text-decoration: none;
 }
