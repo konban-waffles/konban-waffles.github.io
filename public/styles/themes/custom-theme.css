@@ -12,10 +12,10 @@ TIP: Get started creating your own theme here
   --font-family: Meiryo, Arial, sans-serif;
   --font-family-header: Meiryo, Arial, sans-serif;
   --font-family-list: Meiryo, Arial, sans-serif;
-  --color-bg: #665522;
-  --color-bg-alt: white;
-  --color-text-main: white;
-  --color-primary: pink;
+  --color-bg: white;
+  --color-bg-alt: black;
+  --color-text-main: black;
+  --color-primary: black;
 }
 
 /* Add your style rules! */
