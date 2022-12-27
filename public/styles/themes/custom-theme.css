@@ -50,17 +50,17 @@ TIP: Get started creating your own theme here
   margin: 0;
 }
 
+a:hover, a:active, a:focus {
+  color: white !important;
+  background: blue;
+}
+
 a:not(.btn--remix):link, a:not(.btn--remix):visited {
     border-bottom: 0px;
     color: blue;
     text-decoration: underline;
     text-underline-position: under;
     transition: background 0.2s linear;
-}
-
-a:hover, a:active, a:focus {
-  background: var(--color-primary);
-  color: white;
 }
 
 .image-credit a:not(.btn--remix):link, .image-credit a:not(.btn--remix):visited {
