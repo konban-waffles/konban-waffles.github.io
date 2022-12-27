@@ -7,6 +7,7 @@ TIP: Get started creating your own theme here
 - Make sure you have `custom-theme` in settings.json theme property
 - (Update it if you changed the CSS file name)
 ******************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap');
 
 :root {
   --font-family: Meiryo, Arial, sans-serif;
@@ -18,6 +19,15 @@ TIP: Get started creating your own theme here
   --color-primary: black;
 }
 
+body {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 700;
+}
 
 
 .image-card {
