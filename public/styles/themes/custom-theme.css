@@ -130,9 +130,8 @@ ul.link-list li a:visited {
 ul.link-list li a img {
   z-index: 1;
   aspect-ratio: 1 / 1;
-  height: 75px;
   width: 75px;
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
 }
 ul.link-list li a span {
