@@ -18,4 +18,10 @@ TIP: Get started creating your own theme here
   --color-primary: black;
 }
 
+div.gallery img {
+  max-width: 100%;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 10px;
+}
 /* Add your style rules! */
