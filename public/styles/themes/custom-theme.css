@@ -24,4 +24,11 @@ div.gallery img {
   border: 1px solid;
   border-radius: 10px;
 }
+div.gallery-2 img {
+  max-width: 49%;
+}
+div.gallery-3 img {
+  max-width: 32%;
+}
+
 /* Add your style rules! */

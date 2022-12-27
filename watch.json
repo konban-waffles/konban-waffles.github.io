@@ -16,5 +16,6 @@
       "settings.json"
     ]
   },
+  "throttle": 10000,
   "noSavedEvents": true
 }

@@ -31,7 +31,6 @@
   "glitch": {
     "projectType": "generated_static"
   },
-  "author": "Keith Kurson <keith@glitch.com>",
   "auto": {
     "plugins": [
       "all-contributors",
