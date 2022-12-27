@@ -133,6 +133,9 @@ ul.link-list li a:visited {
   position: relative;
   text-decoration: none;
 }
+.link-list-image {
+  min-width: 75px;
+}
 ul.link-list li a img {
   z-index: 1;
   aspect-ratio: 1 / 1;
