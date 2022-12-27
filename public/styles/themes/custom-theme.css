@@ -7,7 +7,7 @@ TIP: Get started creating your own theme here
 - Make sure you have `custom-theme` in settings.json theme property
 - (Update it if you changed the CSS file name)
 ******************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Zen+Maru+Gothic:wght@400;700&display=swap');
 
 :root {
   --font-family: Meiryo, Arial, sans-serif;
@@ -17,6 +17,7 @@ TIP: Get started creating your own theme here
   --color-bg-alt: black;
   --color-text-main: black;
   --color-primary: black;
+  --color-primary: black;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Zen Maru Gothic', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: 700;
 }
 
@@ -71,6 +72,11 @@ a:not(.btn--remix):link, a:not(.btn--remix):visited {
     text-decoration: underline;
     text-underline-position: under;
     transition: background 0.2s linear;
+}
+
+.social-icons a:link {
+  border-bottom: none;
+  text-decoration: none;
 }
 
 .image-credit a:not(.btn--remix):link, .image-credit a:not(.btn--remix):visited {
