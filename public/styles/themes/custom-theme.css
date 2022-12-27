@@ -115,6 +115,10 @@ ul.link-list li a:active img, ul.link-list li a:focus img, ul.link-list li a:hov
   -webkit-filter: invert(100%);
 }
 
+.link-list-image {
+    padding: 10px; 
+}
+
 ul.link-list li a {
   min-height: 75px;
   min-width: 100%;
