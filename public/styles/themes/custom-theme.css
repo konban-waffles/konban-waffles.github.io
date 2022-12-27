@@ -18,11 +18,17 @@ TIP: Get started creating your own theme here
   --color-primary: black;
 }
 
-div.gallery img {
+.gallery .image-card {
   max-width: 100%;
   display: inline-block;
-  border: 1px solid;
+  border: 1px solid #66ccff;
   border-radius: 10px;
+  box-shadow: 6px 6px 1px -3px #66ccff;
+  margin-bottom: 10px;
+}
+
+.gallery .image-card img {
+  max-width: calc(100% - 10px);
 }
 div.gallery-2 img {
   max-width: 49%;
