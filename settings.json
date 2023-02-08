@@ -15,7 +15,11 @@
       "text": "Instagram: konban_waffles",
       "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/Instagram_Glyph_Black.png?v=1672118859125" 
      },
-     {  
+     {
+        "url": "https://mstdn.jp/web/@konban_waffles",
+        "text": "@konban_waffles@mstdn.jp"
+     },
+     {
       "url": "https://vrchat.com/home/user/usr_b9e97bc4-9719-4f5c-8e38-1bdd2caa10af",
       "text": "VRChat: konban_waffles",
       "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/VRC_Logo_white.png?v=1672118481415" 
@@ -45,7 +49,7 @@
     "kofi": "",
     "letterboxd":"",
     "linkedin": "",
-    "mastodon": "",
+    "mastodon": "https://mstdn.jp/web/@konban_waffles",
     "medium": "",
     "patreon": "",
     "pinboard":"",
