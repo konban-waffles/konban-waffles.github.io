@@ -25,12 +25,14 @@ TIP: Get started creating your own theme here
 .news-card {
   border: 1px solid #66ccff;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 10px;
 }
 
 .news-card h3 {
   margin-top: 0;
   font-family: var(--font-family);
+  font-size: 28px;
 }
 
 .image-card {

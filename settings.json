@@ -10,14 +10,15 @@
       "text": "Twitter: @konban_waffles",
       "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/2021%20Twitter%20logo%20-%20black.png?v=1672119056420" 
      },
+     {
+        "url": "https://misskey.io/@konban_waffles",
+        "text": "@konban_waffles@misskey.io",
+        "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/icon-misskey-02.png?v=1688330701725"
+     },
      {  
       "url": "https://www.instagram.com/konban_waffles/",
       "text": "Instagram: konban_waffles",
       "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/Instagram_Glyph_Black.png?v=1672118859125" 
-     },
-     {
-        "url": "https://mstdn.jp/web/@konban_waffles",
-        "text": "@konban_waffles@mstdn.jp"
      },
      {
       "url": "https://vrchat.com/home/user/usr_b9e97bc4-9719-4f5c-8e38-1bdd2caa10af",
@@ -49,7 +50,8 @@
     "kofi": "",
     "letterboxd":"",
     "linkedin": "",
-    "mastodon": "https://mstdn.jp/web/@konban_waffles",
+    "mastodon": "",
+    "misskey": "https://misskey.io/@konban_waffles",
     "medium": "",
     "patreon": "",
     "pinboard":"",
