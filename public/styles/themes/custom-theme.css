@@ -7,7 +7,7 @@ TIP: Get started creating your own theme here
 - Make sure you have `custom-theme` in settings.json theme property
 - (Update it if you changed the CSS file name)
 ******************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Zen+Maru+Gothic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Zen+Maru+Gothic:wght@400;700&display=swap');
 
 :root {
   --font-family: 'Zen Maru Gothic', sans-serif;
@@ -173,3 +173,17 @@ ul.link-list li a span {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.sankou-page .image-card {
+  max-width: 1000px;
+  margin: auto;
+}
+
+ul.sankou-list li, p.sankou-desc {
+  font-family: var(--font-family-header);
+  font-size: 16px;
+  line-height: 1.0125;
+  text-align: left;
+}
+
+ul.sankou-list li
