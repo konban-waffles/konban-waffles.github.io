@@ -18,7 +18,7 @@ export default defineConfig(async ({ command, mode }) => {
     ],
     build: {
       cssCodeSplit: false,
-      outDir: "build",
+      outDir: "dist",
       rollupOptions: {
         input: {
           main: resolve(__dirname, "index.html"),

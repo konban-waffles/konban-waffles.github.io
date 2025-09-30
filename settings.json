@@ -3,32 +3,32 @@
   "metaDescription": "こんばんワッフルズです",
   "name": "こんばんワッフルズ",
   "theme": "custom-theme",
-  "avatarImage": "https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/icon.jpg?v=1672097173988",
+  "avatarImage": "/glitch-assets/icon.jpg?v=1672097173988",
   "links": [
      {  
       "url": "https://twitter.com/konban_waffles/",
       "text": "Twitter: @konban_waffles",
-      "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/2021%20Twitter%20logo%20-%20black.png?v=1672119056420" 
+      "img":"/glitch-assets/2021%20Twitter%20logo%20-%20black.png?v=1672119056420" 
      },
      {
         "url": "https://misskey.io/@konban_waffles",
         "text": "@konban_waffles @misskey.io",
-        "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/icon-misskey-02.png?v=1688330701725"
+        "img":"/glitch-assets/icon-misskey-02.png?v=1688330701725"
      },
      {  
       "url": "https://www.instagram.com/konban_waffles/",
       "text": "Instagram: konban_waffles",
-      "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/Instagram_Glyph_Black.png?v=1672118859125" 
+      "img":"/glitch-assets/Instagram_Glyph_Black.png?v=1672118859125" 
      },
      {
       "url": "https://vrchat.com/home/user/usr_b9e97bc4-9719-4f5c-8e38-1bdd2caa10af",
       "text": "VRChat: konban_waffles",
-      "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/VRC_Logo_white.png?v=1672118481415" 
+      "img":"/glitch-assets/VRC_Logo_white.png?v=1672118481415" 
      },
      {  
       "url": "https://cluster.mu/u/konban_waffles",
       "text": "cluster: @konban_waffles",
-      "img":"https://cdn.glitch.global/30e0a551-aae9-4080-afcd-a1b8b2b1333f/clusterlogo_trans_bw.svg?v=1672117755464" 
+      "img":"/glitch-assets/clusterlogo_trans_bw.svg?v=1672117755464" 
      },
      {
       "url": "https://hub.vroid.com/users/4482559",
